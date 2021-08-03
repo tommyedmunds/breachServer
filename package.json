@@ -1,0 +1,27 @@
+{
+  "name": "hackserver",
+  "version": "1.0.0",
+  "description": "a simple server that ships puppeteer to our express app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhatThe-Hack/WhatThe-HackServer.git"
+  },
+  "author": "tommy edmunds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhatThe-Hack/WhatThe-HackServer/issues"
+  },
+  "homepage": "https://github.com/WhatThe-Hack/WhatThe-HackServer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^10.1.0",
+    "puppeteer-core": "^10.1.0"
+  }
+}
